@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador de Año Nuevo</title>
+    <link rel="stylesheet" href="Style.css"> <!--esta linea es para llamr al archivo css-->
+
+    <script src="script.js" defer></script>
+</head>
+<body onclick="playaudio()"><!--desde aqui empieza la pagina-->
+    
+    <audio id="musica1" loop>
+        <source src="cancion1.mp3" type="audio/mpeg">
+    </audio>
+    <div class="snowfall"></div><!--genera nieve-la siguiente estrellas-->
+    <div id="balloons"></div>
+    <div class="encabezado">
+    <h1><b>CODEOM</b></h1>
+    <h3><b>CEO</b></h3>
+    <h6><i>Jhon Carrero</i></h6>
+</div>
+    <div class="contador">
+        <div class="contenedor-cuadro">
+            <div class="cuadro" id="dias">-</div>
+            <div class="palabra">Días</div>
+        </div>
+        <div class="contenedor-cuadro">
+            <div class="cuadro" id="horas">-</div>
+            <div class="palabra">Horas</div>
+        </div>
+        <div class="contenedor-cuadro">
+            <div class="cuadro" id="minutos">-</div>
+            <div class="palabra">Minutos</div>
+        </div>
+        <div class="contenedor-cuadro">
+            <div class="cuadro" id="segundos">-</div>
+            <div class="palabra">Segundos</div>
+        </div>
+    </div>
+    <div class="contenedor-seccion">
+            <div class="imagen">
+                <img src="Angie5.webp" alt="Imagen" class="imagenpequeña">
+            </div>
+            <div class="mensaje">
+                <div id="mensaje" style="display: none;">
+                    <h1>!Feliz Año Nuevo!</h1>
+                    <p>En este inicio de año, te deseo que cada día esté lleno
+                         de momentos extraordinarios, de aprendizajes valiosos 
+                         y de encuentros inolvidables. Que el 2024 te traiga 
+                         nuevas oportunidades para crecer, reír y vivir al máximo
+                          cada instante.</p>
+                          <p>Eres una persona increíble, llena de talento y bondad,
+                             y mereces que este año nuevo te colme de éxitos, 
+                             felicidad y amor. Que la vida te sorprenda gratamente 
+                             con experiencias que enriquezcan tu camino y te lleven
+                             a descubrir nuevos horizontes.</p>
+                             <p>Espero que sigamos compartiendo momentos, aunque sean
+                                 breves, pero que nos permitan seguir construyendo una bonita amitad. 
+                                 Que este nuevo año esté lleno de logros,sonrisas y momentos que atesoremos 
+                                 en nuestra memoria.</p>
+                                 <p>¡Feliz año nuevo! Que el 2024 nos depare gratas sorpresas 
+                                    y que sigas siendo esa persona maravillosa que ilumina la 
+                                    vida de quienes te rodean.</p>
+                </div>
+                <div id="cuenta">
+                    <p>Esperando mensaje... <p> el mensaje se mostrara el 01/01/2024 a las 00:00 hrs</p></p>
+            
+                </div>
+            </div>
+
+    </div>
+    
+</html>
